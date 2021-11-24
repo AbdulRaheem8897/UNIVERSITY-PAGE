@@ -1,0 +1,51 @@
+.parent {
+  height: 900px;
+  width: 100%;
+  float: left;
+}
+
+.smallchild {
+  height: 250px;
+  width: 100px;
+  margin-top: 200px;
+  background-color: rgb(241, 197, 14);
+  display: inline-block;
+  float: left;
+  margin-top: 250px;
+  margin-right: 60px;
+}
+
+.secondchild {
+  height: 800px;
+  width: 550px;
+  display: inline-block;
+  float: left;
+  margin-top: 100px;
+}
+.image {
+  height: 700px;
+  width: 600px;
+  display: inline-block;
+  background-image: url(./qw.jpg);
+  background-size: cover;
+  float: left;
+}
+
+.secondchild h1 {
+  font-size: 100px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.secondchild p {
+  font-size: 20px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
